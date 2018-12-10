@@ -1,0 +1,145 @@
+body {
+    background: #F5F4F9
+}
+.header-top {
+    background: #075B99;
+    width: 100%;
+    height: 40px;
+}
+.arrow-back {
+    display: inline-block;
+    width: 37px;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    position: absolute;
+}
+.arrow-back i {
+    font-size: 20px;
+}
+.header-title {
+    margin: 0;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.my-apps {
+    padding: 0 10px;
+    background: #fff;
+}
+.my-apps .my-aap-title {
+    line-height: 40px;
+}
+.my-apps .my-app-list {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 40px;
+}
+.my-apps .my-app-list li {
+    list-style: none;
+    display: inline-block;   
+    padding-left: 10px;
+}
+.my-apps .my-app-list li i {
+    font-size: 20px;
+    font-weight: 600;
+}
+.my-apps .my-app-more {
+    display: inline-block;
+    float: right;
+    line-height: 38px;
+}
+.my-app-more button{
+    border: 1px solid #29a1f7;
+    color: #29a1f7;
+    background: none;
+    outline: none;
+    margin-left: 10px;
+    line-height: 20px;
+}
+.font-blue {
+    color: #1d8fe1;
+}
+.font-yellow {
+    color: #f39826;
+}
+.font-green {
+    color: #32ae96;
+}
+.font-red {
+    color: #f15a4a;
+}
+.font-gray {
+    color: #666666;
+}
+.newly-use {
+    padding: 0 10px;
+    margin-top: 15px;
+    background: #fff;
+}
+.newly-use .box-header {
+    padding: 0;
+}
+.newly-use .box-header h4 {
+    font-weight: 600;
+}
+.newly-use .box-body {
+    padding: 0;
+}
+.use-app-list {
+    margin: 0;
+    padding: 0;
+}
+.use-app-list li {
+    list-style: none;
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 17px;
+}
+.use-app-list li i {
+    font-size: 30px;
+}
+.use-app-list li a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    border:0;
+}
+.more-app {
+    padding: 0 10px;
+    margin-top: 15px;
+    background: #fff;
+}
+.more-app .more-app-list {
+
+}
+.more-app-list li {
+    width: 25%;
+}
+.more-app-list li a{
+    text-align: center;
+    line-height: 37px;
+    color: #151515;
+}
+.more-app-list > li > a:hover {
+
+}
+.more-app-list > li > a:hover, .more-app-list > li > a:active, .more-app-list > li > a:focus {
+    background: none;
+    border-color: transparent;
+}
+.more-app-list > li.active > a, .more-app-list > li.active > a:hover, .more-app-list > li.active > a:focus {
+    border: 0;
+    border-bottom: 3px solid #1d8fe1;
+    color: #1d8fe1;
+}
+.more-app .more-app-list a {
+    padding: 0;
+}
+.more-app .more-app-tab {
+
+}

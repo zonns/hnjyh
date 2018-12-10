@@ -1,0 +1,46 @@
+.middle{
+    width: 100%;
+    height: auto;
+    background: rgb(248,248,248);
+    padding-top: 10px;
+}
+.middle-top{
+    background: #fff;
+}
+.middle-top div{
+    height: 45px;
+    line-height: 45px;
+    border-top: 1px solid rgb(230,230,230);
+    border-bottom: 1px solid rgb(230,230,230);
+}
+.middle-top div i{
+    color: rgb(29,147,209);
+    margin-left: 10px;
+}
+.middle-top div span{
+    float: right;
+    margin-right: 10px;
+}
+.middle-top ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid rgb(230,230,230);
+}
+.middle-top ul li{
+    width: 24%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    float: left;
+}
+.colo{
+    color: rgb(29,147,209);
+}
+.middle-bottom{
+    margin-top: 10px;
+}
+.middle-bottom img{
+    width: 100%;
+}

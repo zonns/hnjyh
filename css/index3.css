@@ -1,0 +1,84 @@
+.middle{
+    width: 100%;
+    height: auto;
+    background: rgb(240,240,240);
+    background: url("../dist/img/yy-bg.png") no-repeat;
+    background-size: 100%;
+}
+.middle-content{
+    width: 100%;
+    height: auto;
+}
+.middle-bottom{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    position: fixed;
+    left: 0;
+}
+.middle-content ul,.middle-content li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.middle-content ul{
+    width: 100%;
+    height: auto;
+}
+.middle-content li:nth-of-type(odd),.middle-content li:nth-of-type(odd) span,.middle-content li:nth-of-type(odd) div{
+    float: left;
+}
+.middle-content li:nth-of-type(even),.middle-content li:nth-of-type(even) span,.middle-content li:nth-of-type(even) div{
+    float: right;
+}
+.middle-content li span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #fff;
+    text-align: center;
+    margin: 10px;
+}
+.middle-content li:nth-of-type(even) span img{
+    width: 100%;
+    height: 100%;
+}
+.middle-content li div{
+    width: 60%;
+    height: auto;
+    float: left;
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+    background: #fff;
+    border-radius: 10px;
+}
+.middle-content li div img{
+    width: 100%;
+}
+.middle-content li span img{
+    width: 80%;
+    height: 80%;
+}
+.middle-bottom i{
+    font-size: 20px;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    color: #ccc;
+}
+.middle-bottom input{
+    width: 70%;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background: transparent;
+}

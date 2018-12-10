@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>app</title>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_784116_zketywsupr.css">
+    <link rel="stylesheet" href="./script/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./dist/css/AdminLTE.css">
+    <link rel="stylesheet" href="./script/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/font_p1kef376cq9/iconfont.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index3.css">
+</head>
+<body>
+    <!-- 页面导航 -->
+    <ul class="nav nav-tabs ui-sortable-handle nav-custom">
+            <li class=""><a href="index.html"><i class="fa fa-home icon1"></i><span>首页</span></a></li>
+            <li class=""><a href="index2.html"><i class="fa fa-calendar-minus-o icon2"></i><span>要闻</span></a></li>
+            <li class="active"><a href="index3.html"><i class="fa fa-comments-o icon3"></i><span>问答</span></a></li>
+            <li class=""><a href="index4.html"><i class="fa fa-shield icon4"></i><span>监督</span></a></li>
+            <li class=""><a href="index5.html"><i class="fa fa-user-circle-o icon5"></i><span>我的</span></a></li>
+    </ul>
+    <!-- tab 切换 -->
+    <div class="tab-content no-padding tab-custom">
+        <div class="header-top" style="height: 70px;">
+            <div class="header-bg"></div>
+            <!--<div class="search-box">
+                <i class="iconfont icon-sousuo search-btn"></i>
+                <input type="text" class="search-input">
+                <i class="iconfont icon-scan scan-btn"></i>
+            </div>-->
+        </div>
+        <div class="middle">
+            <div class="middle-content">
+                <ul>
+                    <li>
+                        <span><img src="dist/img/robot.png" alt=""></span>
+                        <div>
+                            欢迎来到湖南省人民政府官网，您可以通过语音或者文字的方式获取您需要的信息，系统将通过人工智能的方式简答您的问题。
+                        </div>
+                    </li>
+                    <li>
+                        <span><img src="dist/img/tou1.jpg" alt=""></span>
+                        <div>
+                            <img src="dist/img/yuyin.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <span><img src="dist/img/robot.png" alt=""></span>
+                        <div>
+                            根据您输入的信息智能推荐以下服务<br/>
+                            1、网上预约办理护照<br/>
+                            2、去就近人口与出入境管理处现场办理<br/>
+                            3、查看完整指南<br/>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="middle-bottom">
+                <i class="iconfont icon-yuyin"></i><input type="text"><i class="iconfont icon-biaoqing"></i><i class="iconfont icon-jia"></i>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script/jquery/dist/jquery.js"></script>
+<script src="./script/bootstrap/dist/js/bootstrap.js"></script>
+<script src="./dist/js/adminlte.min.js"></script>
+<script src="./script/index.js"></script>
+<script>
+    $(function(){
+        /*$('.middle-content ul li').height( $('.middle-content ul li div').height()+40);*/
+        var h=$('.nav').height();
+        $('.middle-bottom').css('bottom',h);
+        $('.middle').height($('.tab-content').height()-$('.header-top').height());
+    })
+</script>
+</html>
